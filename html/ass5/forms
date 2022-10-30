@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <marquee>Welcome to Tallent Battle</marquee>
+        <fieldset>
+            <legend>Perosnal Information</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" placeholder="First Name" maxlength="10">
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" placeholder="Last Name">
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="text" name="phone" maxlength="10" placeholder="Phone No.">
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" placeholder="Address"></textarea>
+        <br>
+        <label for="course">Course:</label>
+            <select name="course" id="course">
+            <option value="btech">B.Tech</option>
+            <option value="bpharma">B.Pharma</option>
+            <option value="mba">MBA</option>
+            <option value="mpharma">M.Pharma</option>
+            </select>
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="html" name="fav_language" value="male">
+        <label for="html">Male</label><br>
+        <input type="radio" id="css" name="fav_language" value="female">
+        <label for="css">Female</label><br>
+
+        <label for="Exams">Exam</label>
+        <input type="checkbox" id="c1" name="c1" value="aktu">
+        <label for="c1">Aktu</label><br>
+        <input type="checkbox" id="c2" name="c2" value="jeemain">
+        <label for="c2">JEE Main</label><br>
+
+        <label for="rank">Rank</label>
+        <input type="text" id="rank" name="rank" value="rank" placeholder="Rank">
+        <br>
+        <label for="email">Email</label>
+        <input type="email " id="pass" name="pass" placeholder="E-Mail">
+        <br>
+        <label for="dob">Date of Birth</label>
+        <input type="date">
+        <br>
+
+        <label for="password">Password</label>
+        <input type="password" id="pass" name="pass" value="password" placeholder="password">
+        <br>
+        <button> Submit</button>
+        </fieldset>
+  </form>
+</body>
+</html>
