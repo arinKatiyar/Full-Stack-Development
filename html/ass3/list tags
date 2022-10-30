@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Tags</title>
+</head>
+
+<body>
+    <h2>Ordered List</h1>
+
+        <ol type="A">
+            <li>Rohit Sharma</li>
+            <li>KL Rahul</li>
+            <li>Virat Kohli</li>
+            <li>Surya Kumar Yadav</li>
+            <li>Dinesh Kartik</li>
+            <li>Hardik Pandya</li>
+        </ol>
+
+        <h2>Unordered List</h2>
+
+        <ul type="square">
+            <li>Cat</li>
+            <li>Rat</li>
+            <li>Lion</li>
+            <li>Tiger</li>
+            <li>Elephant</li>
+        </ul>
+</body>
+
+</html>
