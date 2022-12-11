@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url('background.jpg');
+    height: 100px;
+    
+}
+.header{
+    color: skyblue;
+    
+}
+.left{
+    display:inline-block;
+    position:absolute ;
+    left: 44px;
+    top: 20px;
+    /*border: 2px solid red;*/
+    
+
+}
+.left img{
+    width: 98px;
+    filter: invert(100%);
+    
+}
+.left div{
+    text-align: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mid{
+    display:block;
+    width: 45%;
+    margin:20px auto;
+    
+    /*border: 2px solid green;*/
+}
+.right{
+    position:absolute ;
+    right: 44px;
+    top: 15px;
+    /*border: 2px solid skyblue;*/
+    padding:17px;
+}
+.btn{
+    height:36px;
+    border-radius:10px;
+
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size:20px;
+}
+.navbar li a{
+    color: snow;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover ,.navbar li a:active{
+    text-decoration:underline;
+    color:rgb(109, 108, 108);
+}
+.container{
+    border: 2px solid white;
+    color: snow;
+    margin: 106px 80px;
+    padding: 75px 75px;
+    width: 30%;
+    border-radius: 10px;
+}
+.form-group{
+     text-align: center;
+}
+.form-group input{
+    text-align:center;
+    display: block;
+    width: 330px;
+    margin:5px auto;
+    font-size: 19px;
+    border-radius: 19px; 
+}
+h1{
+    text-align: center;
+}
+.container button{
+     display: block;
+     width: 335px;
+     margin: 2px auto;
+     font-size: 19px;
+     border-radius:19px;   
+}
